@@ -6,15 +6,53 @@
 
 .header-cont {
     height: 5vh;
+    width: 100vw;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header1 {
+    
+}
+
+.header2 {
+    
 }
 
 .main-cont {
-    height: 90vh;
+    height: 85vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.main-cont img {
+    width: 275px;
+    margin-bottom: 25px;
+}
+
+.main-cont input {
+    width: 600px;
+    margin-bottom: 25px;
+}
+
+.main-cont button {
+    margin: auto 10px;
+}
+
+.country-footer {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 
 .footer-cont {
     height: 5vh;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
